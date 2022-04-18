@@ -6,5 +6,6 @@ jobs:
     steps:
       - name: test0
         run: |
+          sudo add-apt-repository universe
           sudo apt-get -y update
           sudo apt-get -y install slurmctld slurmd slurmdbd slurmrestd
