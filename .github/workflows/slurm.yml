@@ -1,0 +1,8 @@
+name: 'slurm'
+on: push
+jobs:
+  install:
+    runs-on: debian-latest
+    steps:
+      - name: test0
+        run: apt-get -y update
