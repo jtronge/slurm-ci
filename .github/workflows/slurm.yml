@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test0
-        run: apt-get -y update
+        run: sudo apt-get -y update
