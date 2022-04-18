@@ -8,4 +8,4 @@ jobs:
         run: |
           sudo add-apt-repository universe
           sudo apt-get -y update
-          sudo apt-get -y install slurmctld slurmd slurmdbd slurmrestd
+          sudo apt-get -y install slurm-wlm
