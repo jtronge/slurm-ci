@@ -2,7 +2,7 @@ name: 'slurm'
 on: push
 jobs:
   install:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-21.10
     steps:
       - name: test0
         run: |
