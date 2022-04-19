@@ -9,3 +9,9 @@ jobs:
           sudo add-apt-repository universe
           sudo apt-get -y update
           sudo apt-get -y install slurm-wlm
+  test-step:
+    runs-on: vortice
+    steps:
+      - name: qualcosa
+        run: |
+          touch ~/github-actions
