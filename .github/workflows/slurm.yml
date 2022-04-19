@@ -10,7 +10,7 @@ jobs:
           sudo apt-get -y update
           sudo apt-get -y install slurm-wlm
   test-step:
-    runs-on: vortice
+    runs-on: [self-hosted, linux, x64]
     steps:
       - name: qualcosa
         run: |
